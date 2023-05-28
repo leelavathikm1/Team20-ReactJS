@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      div#container {
+        border: 2px solid;
+      }
+      header {
+        border: 2px solid;
+        margin: 5px;
+        height: 50px;
+        background: blue;
+      }
+      nav {
+        border: 2px solid;
+        height: 50px;
+        margin: 5px;
+      }
+      div#parent {
+        overflow: auto;
+        margin: 5px;
+      }
+      div#leftChild {
+        width: 700px;
+        float: left;
+      }
+      section {
+        border: 2px solid;
+        height: 100px;
+      }
+      article {
+        border: 2px solid;
+        height: 100px;
+        margin-top: 5px;
+      }
+      aside {
+        width: 450px;
+        float: right;
+        border: 2px solid;
+        height: 212px;
+      }
+      footer {
+        border: 2px solid;
+        height: 50px;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header>Header</header>
+      <nav>NavBar</nav>
+      <div id="parent">
+        <div id="leftChild">
+          <section>Section</section>
+          <article>Article</article>
+        </div>
+        <aside>
+          <img src="./R.jpeg" alt="" width="440px" height="210px" />
+        </aside>
+      </div>
+      <figure><img src="" alt="" /></figure>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
