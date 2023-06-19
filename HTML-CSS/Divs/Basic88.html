@@ -5,12 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      div#parentSection {
+        background: #333333;
+      }
+      div#subSection {
+        background: gray;
+        width: 950px;
+        margin: auto;
+        overflow: auto;
+      }
+      section {
+        width: 200px;
+        float: left;
+        margin-right: 25px;
+      }
+      ul {
+        /* margin: 0; */
+        padding: 0 0 0 11px;
+        list-style-type: none;
+      }
+      li {
+        line-height: 1.7;
+        border-bottom: 1px solid;
+      }
+      a {
+        text-decoration: none;
+      }
+      div#parentFooter {
+        background: black;
+        color: white;
+      }
+      footer {
+        width: 950px;
+        margin: auto;
+        overflow: auto;
+      }
+      p#leftPara {
+        float: left;
+      }
+      p#rightPara {
+        float: right;
+      }
+    </style>
   </head>
   <body>
-    <div class="parent">
-      <div class="divs">div1</div>
-      <div class="divs">div2</div>
-      <div class="divs">div3</div>
+    <div id="parentSection">
+      <div id="subSection">
+        <section>
+          <h3><i>Link Block</i></h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor sit</a></li>
+            <li><a href="#">Amet consectetur</a></li>
+            <li><a href="#">Praesent vel sem id</a></li>
+            <li><a href="#">Curabitur hendrerit est</a></li>
+            <li><a href="#">Sed a nulla urna</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3><i>Link Block</i></h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor sit</a></li>
+            <li><a href="#">Amet consectetur</a></li>
+            <li><a href="#">Praesent vel sem id</a></li>
+            <li><a href="#">Curabitur hendrerit est</a></li>
+            <li><a href="#">Sed a nulla urna</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3><i>Link Block</i></h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor sit</a></li>
+            <li><a href="#">Amet consectetur</a></li>
+            <li><a href="#">Praesent vel sem id</a></li>
+            <li><a href="#">Curabitur hendrerit est</a></li>
+            <li><a href="#">Sed a nulla urna</a></li>
+          </ul>
+        </section>
+        <section id="lastSection">
+          <h3><i>Link Block</i></h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor sit</a></li>
+            <li><a href="#">Amet consectetur</a></li>
+            <li><a href="#">Praesent vel sem id</a></li>
+            <li><a href="#">Curabitur hendrerit est</a></li>
+            <li><a href="#">Sed a nulla urna</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <div id="parentFooter">
+      <footer>
+        <p id="leftPara">
+          Copyright © 2018 - All Rights Reserved - Domain Name
+        </p>
+        <p id="rightPara">Template by OS Templates</p>
+      </footer>
     </div>
   </body>
 </html>
