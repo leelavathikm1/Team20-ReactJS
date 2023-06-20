@@ -1,0 +1,41 @@
+div#parentSection {
+    background: #333333;
+  }
+  div#subSection {
+    background: gray;
+    width: 950px;
+    margin: auto;
+    overflow: auto;
+  }
+  section {
+    width: 200px;
+    float: left;
+    margin-right: 25px;
+  }
+  ul {
+    /* margin: 0; */
+    padding: 0 0 0 11px;
+    list-style-type: none;
+  }
+  li {
+    line-height: 1.7;
+    border-bottom: 1px solid;
+  }
+  a {
+    text-decoration: none;
+  }
+  div#parentFooter {
+    background: black;
+    color: white;
+  }
+  footer {
+    width: 950px;
+    margin: auto;
+    overflow: auto;
+  }
+  p#leftPara {
+    float: left;
+  }
+  p#rightPara {
+    float: right;
+  }
