@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 500px;
+        border: 2px solid;
+        margin: auto;
+        margin-top: 300px;
+      }
+      #statPosition {
+        border: 1px solid;
+        height: 50px;
+        position: static;
+        left: 100px;
+      }
+      #RelatPosition {
+        border: 1px solid;
+        height: 50px;
+        position: relative;
+        left: 20px;
+      }
+      #fixPosition {
+        border: 1px solid;
+        height: 50px;
+        position: fixed;
+        top: 200px;
+      }
+      #absolPosition {
+        border: 1px solid;
+        height: 50px;
+        position: absolute;
+        top: 200px;
+        width: 100px;
+        right: 150px;
+        top: 50px;
+      }
+      #sticPosition {
+        border: 1px solid;
+        height: 50px;
+        position: sticky;
+
+        width: 300px;
+
+        top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The position property specifies the type of positioning method for an element
+    There are five different positions -->
+    <!-- 
+        1.Static 
+        2.Relative
+        3.fixed
+        4.Absolute
+        5.Sticky
+     -->
+
+    <div class="container">
+      <!-- 1.Static  it will not position in any  special way
+    it is always positioned according to normal flow of the browser-->
+      <div id="statPosition">Static</div>
+
+      <!-- 2.Relative  -->
+      <div id="RelatPosition">Relative</div>
+
+      <!-- 3.Fixed  -->
+      <div id="fixPosition">Fixed</div>
+
+      <!-- 4.Absolute -->
+      <div id="absolPosition">Asolute</div>
+
+      <!-- 5.Sticky -->
+
+      <div id="sticPosition">Sticky</div>
+    </div>
+  </body>
+</html>
